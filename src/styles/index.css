@@ -1,0 +1,34 @@
+@import "./colors.css";
+* {
+  box-sizing: border-box;
+}
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body {
+  height: 100vh;
+  background-color: var(--Very_Dark_Blue);
+  font-family: "Josefin Sans";
+}
+body.lightmode {
+  background-color: var(--Very_Light_Grayish_Blue);
+
+  .todo_list,
+  .add_task_container,
+  input[type="text"],
+  .clear_container,
+  .fotter_container {
+    background-color: var(--Very_Light_Gray);
+    scrollbar-color: var(--Bright_Blue) var(--Very_Light_Gray);
+  }
+  section p, input[type="text"]{
+    color: var(--Very_Dark_Grayish_Blue);
+  }
+  .fotter_container button:hover,
+  .clear_container button:hover {
+    transition: all 0.3s ease;
+    color: var(--Dark_Grayish_Blue);
+  }
+}

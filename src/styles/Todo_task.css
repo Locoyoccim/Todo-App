@@ -1,0 +1,41 @@
+@import "/src/styles/colors.css";
+
+.main_container_todo_task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  padding: 0 15px;
+  color: var(--Light_Grayish_Blue);
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+}
+.main_container_todo_task p {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.main_container_todo_task p.completed {
+  text-decoration: line-through;
+  color: var(--Dark_Grayish_Blue);
+  opacity: 0.5;
+}
+.checkbox_tittle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.x_button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+hr {
+  padding: 0;
+  margin: 0;
+  opacity: 0.2;
+  height: 0.1px;
+  background-color: var(--Light_Grayish_Blue);
+}

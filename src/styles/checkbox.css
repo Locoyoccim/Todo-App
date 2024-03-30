@@ -1,0 +1,36 @@
+@import "/src/styles/colors.css";
+
+.checkbox_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.checkbox_container button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: var(--Light_Grayish_Blue) solid 1px;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.checkbox_container button.checked {
+  background: linear-gradient(
+    to left top,
+    hsl(280, 87%, 65%),
+    hsl(192, 100%, 67%)
+  );
+  border: none;
+  transition: all 0.3s ease;
+}
+.checkbox_container button img {
+  display: none;
+  width: 100%;
+}
+.checkbox_container button.checked img {
+  display: block;
+  transition: all 0.3s ease;
+}

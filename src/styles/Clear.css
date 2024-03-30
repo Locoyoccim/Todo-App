@@ -1,0 +1,26 @@
+@import url("/src/styles/colors.css");
+
+.clear_container {
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 14px;
+  color: var(--Very_Dark_Grayish_Blue);
+  background-color: var(--Very_Dark_Desaturated_Blue);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: -20px;
+  border-top: hsl(233, 11%, 84%, 0.2) 1px solid;
+}
+.clear_container button {
+  background: none;
+  border: none;
+  color: var(--Very_Dark_Grayish_Blue);
+  cursor: pointer;
+}
+.clear_container button:hover {
+  transition: all .3s ease;
+  color: white;
+}

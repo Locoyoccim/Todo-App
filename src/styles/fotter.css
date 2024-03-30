@@ -1,0 +1,32 @@
+@import "/src/styles/colors.css";
+
+.fotter_container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 55px;
+  border-radius: 15px;
+  background-color: var(--Very_Dark_Desaturated_Blue);
+  font-size: 16px;
+  width: 100%;
+}
+.fotter_container button {
+  border: none;
+  background: none;
+  color: var(--Very_Dark_Grayish_Blue);
+  cursor: pointer;
+}
+.fotter_container button:hover {
+  transition: all 0.3s ease;
+  color: white;
+}
+button.blue {
+  color: var(--Bright_Blue);
+}
+@media screen and (min-width: 1024px) {
+  .fotter_container {
+    width: max-content;
+    top: -75px;
+    position: relative;
+  }
+}

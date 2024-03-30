@@ -1,0 +1,41 @@
+@import url("/src/styles/colors.css");
+
+.top_container {
+  width: 100%;
+  height: 200px;
+  z-index: 0;
+}
+
+section {
+  margin: 0 25px;
+  margin-top: -90px;
+  z-index: 3;
+  position: relative;
+  display: grid;
+  gap: 20px;
+}
+.footer_container{
+  display: flex;
+  justify-content: center;
+}
+.todo_list {
+  background-color: var(--Very_Dark_Desaturated_Blue);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-height: 280px;
+  min-width: 323px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--Bright_Blue) var(--Very_Dark_Desaturated_Blue);
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 600px;
+  }
+}
