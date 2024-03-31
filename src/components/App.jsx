@@ -29,7 +29,7 @@ function App() {
           <div>
             <Clear />
           </div>
-          <div className="footer_container">
+          <div className="footer_container_app">
             <Footer filter={filter} filterState={filterState} />
           </div>
         </section>

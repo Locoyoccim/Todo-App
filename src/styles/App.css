@@ -8,13 +8,13 @@
 
 section {
   margin: 0 25px;
-  margin-top: -65px;
+  margin-top: -55px;
   z-index: 3;
   position: relative;
   display: grid;
   gap: 20px;
 }
-.footer_container {
+.footer_container_app {
   display: flex;
   justify-content: center;
 }
@@ -22,7 +22,7 @@ section {
   background-color: var(--Very_Dark_Desaturated_Blue);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  max-height: 280px;
+  height: 350px;
   min-width: 323px;
   overflow-y: scroll;
   scrollbar-width: thin;
@@ -37,5 +37,13 @@ section {
 @media screen and (min-width: 768px) {
   section {
     width: 600px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .fotter_container {
+    width: max-content;
+    top: -79px;
+    position: relative;
+    height: 60px;
   }
 }
