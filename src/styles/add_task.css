@@ -2,7 +2,7 @@
 
 .add_task_container {
   border: 1px red solid;
-  height: 50px;
+  height: 60px;
   background-color: var(--Very_Dark_Desaturated_Blue);
   padding: 0 15px;
   border: none;

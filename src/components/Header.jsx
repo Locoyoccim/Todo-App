@@ -32,12 +32,16 @@ function Header() {
         <div className="tittle_container">
           <div className="button_sun_tittle">
             <p>TODO</p>
-            <button className="button_mode" onClick={() => changeMode() }>
-              <img className="main_img" src={imgMode} alt="sun-img" />
+            <button className="button_mode" onClick={() => changeMode()}>
+              <img className="main_img" src={imgMode} alt="img" />
             </button>
           </div>
         </div>
-        <img src={window.innerWidth >= 768 ? bg_dk_img : bg_mobile_img} alt="performance_img" className="img_top" />
+        <img
+          src={window.innerWidth >= 768 ? bg_dk_img : bg_mobile_img}
+          alt="performance_img"
+          className="img_top"
+        />
       </header>
     </>
   );

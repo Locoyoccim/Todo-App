@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  height: 55px;
+  height: 60px;
   border-radius: 15px;
   background-color: var(--Very_Dark_Desaturated_Blue);
   font-size: 16px;
@@ -26,7 +26,8 @@ button.blue {
 @media screen and (min-width: 1024px) {
   .fotter_container {
     width: max-content;
-    top: -75px;
+    top: -79px;
     position: relative;
+    height: 60px;
   }
 }
